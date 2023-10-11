@@ -10,11 +10,13 @@
     <div class="container-fluid">
         <div class="container">
             <div class="card p-5 mt-5 bg-primary">
-                <div class="form-label"><h4 style="color: white;">Username</h4></div>
-                <input type="text" name="" id="" class="form-control my-3">
-                <div class="form-label"><h4 style="color: white;">Password</h4></div>
-                <input type="password" name="" id="" class="form-control my-3">
-                <button type="button" class="btn btn-light form-control mt-3"><h5>Login</h5></button>
+                <form action="login.php" method="post">
+                    <div class="form-label"><h4 style="color: white;">Username</h4></div>
+                    <input type="text" name="username" id="username" class="form-control my-3">
+                    <div class="form-label"><h4 style="color: white;">Password</h4></div>
+                    <input type="password" name="password" id="password" class="form-control my-3">
+                    <button type="submit" class="btn btn-light form-control mt-3"><h5>Login</h5></button>
+                </form>
             </div>
         </div>
     </div>
