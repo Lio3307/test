@@ -8,9 +8,8 @@
 </head>
 <body>
     <div class="container-fluid">
-        <h1><center>-FORM LOGIN-</center></h1>
         <div class="container">
-            <div class="card p-5 bg-primary">
+            <div class="card p-5 mt-5 bg-primary">
                 <div class="form-label"><h4 style="color: white;">Username</h4></div>
                 <input type="text" name="" id="" class="form-control my-3">
                 <div class="form-label"><h4 style="color: white;">Password</h4></div>
