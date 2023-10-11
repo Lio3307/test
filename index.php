@@ -3,49 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aurelio WEB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<?php
-    // function aurelio(){
-    //     echo "fungsi aurelio"."<br>";
-    // }
+    <div class="container-fluid">
+        <h1><center>-FORM LOGIN-</center></h1>
+        <div class="container">
+            <div class="card p-5 bg-primary">
+                <div class="form-label"><h4 style="color: white;">Username</h4></div>
+                <input type="text" name="" id="" class="form-control my-3">
+                <div class="form-label"><h4 style="color: white;">Password</h4></div>
+                <input type="password" name="" id="" class="form-control my-3">
+                <button type="button" class="btn btn-light form-control mt-3"><h5>Login</h5></button>
+            </div>
+        </div>
+    </div>
 
-    // function tambah(int $a, int $b){
-    //     return $a + $b;
-    // }
-
-    // aurelio();
-    // echo " 5 + 10 = ".tambah(5,10). "</br>";
-
-    $processor = array("Intel", "AMD", "SnapDragon");
-    $hitung = count($processor);
-
-    for($i = 0; $i < $hitung; $i++){
-        echo $i + 1 ;
-        echo $processor[$i];
-        echo "<br>";
-    }
-   
-    $connection = mysqli_connect('localhost', 'root', '', 'siswa');
-    if ($connection){
-        echo "Connected";
-    }else {
-        echo "Connection Error";
-    }
-
-    $query_mysql = mysql_query("SELECT * FROM murid")or die(mysql_error());
-?>
-<form action="">
-    <label for="">Username</label>
-    <input type="text" name="" id="">
-    <label for="">Password</label>
-    <input type="password" name="" id="">
-    <tr>
-		<td><?php echo $nomor++; ?></td>
-		<td><?php echo $data['nama']; ?></td>
-		<td><?php echo $data['alamat']; ?></td>
-    </tr>
-    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
